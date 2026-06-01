@@ -28,4 +28,4 @@ jobs:
           username: admin@indepthearth.com
           password: Zaddy@2026
           local-dir: ./out/
-          server-dir: /new.indepthearth.com/pipeline_surveillance
+          server-dir: /home/indejtxg/new.indepthearth.com/pipeline_surveillance/
