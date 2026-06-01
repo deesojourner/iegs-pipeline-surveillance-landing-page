@@ -76,7 +76,7 @@ export default function Applications() {
           <span className="inline-block text-xs font-mono text-accent-orange tracking-[0.2em] uppercase mb-4">
             Industry Applications
           </span>
-          <h2 className="text-3xl lg:text-5xl font-bold text-slate-900 leading-tight mb-6">
+          <h2 className="text-3xl lg:text-5xl font-bold text-[#183d6e] leading-tight mb-6">
             Sector-Specific
             <br />
             <span className="text-gradient-orange">Surveillance Solutions</span>

@@ -14,7 +14,7 @@ export default function CaseStudy() {
           <span className="inline-block text-xs font-mono text-accent-orange tracking-[0.2em] uppercase mb-4">
             Case Scenario
           </span>
-          <h2 className="text-3xl lg:text-5xl font-bold text-slate-900 leading-tight mb-6">
+          <h2 className="text-3xl lg:text-5xl font-bold text-[#183d6e] leading-tight mb-6">
             Threat Detection in
             <br />
             <span className="text-gradient-orange">Real-World Operations</span>
