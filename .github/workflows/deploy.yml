@@ -29,4 +29,4 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./out/
-          server-dir: /home/indejtxg/new.indepthearth.com/pipeline_surveillance/
+          server-dir: new.indepthearth.com/pipeline_surveillance/
