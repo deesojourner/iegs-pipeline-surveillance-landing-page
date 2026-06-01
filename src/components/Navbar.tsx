@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
+import { asset } from "@/lib/basePath";
 
 const navLinks = [
   { label: "Capabilities", href: "#capabilities" },
@@ -37,7 +38,7 @@ export default function Navbar() {
           {/* Logo */}
           <a href="#" className="flex items-center group">
             <Image
-              src="/logo.png"
+              src={asset("/logo.png")}
               alt="Indepth Earth"
               width={180}
               height={38}
