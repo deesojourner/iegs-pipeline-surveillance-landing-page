@@ -1,10 +1,8 @@
 name: Deploy to cPanel
-
 on:
   push:
     branches:
       - main
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -20,6 +18,9 @@ jobs:
         run: |
           npm install
           npm run build
+
+      - name: Check out/ contents
+        run: ls -la ./out/
 
       - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
