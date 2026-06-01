@@ -62,7 +62,7 @@ export default function RiskOverview() {
           <span className="inline-block text-xs font-mono text-accent-orange tracking-[0.2em] uppercase mb-4">
             Risk Assessment
           </span>
-          <h2 className="text-3xl lg:text-5xl font-bold text-slate-900 leading-tight mb-6">
+          <h2 className="text-3xl lg:text-5xl font-bold text-[#183d6e] leading-tight mb-6">
             Persistent Threats Demand <span className="text-gradient-orange">Persistent Surveillance</span>
           </h2>
           <p className="text-lg text-slate-500 leading-relaxed">

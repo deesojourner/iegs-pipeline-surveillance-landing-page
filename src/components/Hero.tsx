@@ -305,7 +305,7 @@ export default function Hero() {
   const contentY = useTransform(scrollYProgress, [0, 0.5], [0, -60]);
 
   return (
-    <section ref={sectionRef} className="relative min-h-screen flex items-center justify-center overflow-hidden pt-24 lg:pt-28 pb-24">
+    <section ref={sectionRef} className="relative min-h-screen flex items-center justify-center overflow-hidden pt-40 lg:pt-48 pb-24">
       {/* Layered background with parallax */}
       <motion.div style={{ y: bgY }} className="absolute inset-0 -top-[10%] -bottom-[10%]">
         <div className="absolute inset-0 animated-gradient" />
@@ -449,8 +449,9 @@ export default function Hero() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent-orange opacity-60" />
               <span className="relative inline-flex rounded-full h-2 w-2 bg-accent-orange" />
             </span>
-            <span className="text-[11px] font-mono text-accent-orange/90 tracking-[0.15em] uppercase">
-              Geospatial Intelligence for Critical Infrastructure
+            <span className="text-[9px] sm:text-[11px] font-mono text-accent-orange/90 tracking-[0.15em] uppercase">
+              <span className="sm:hidden">Geospatial Infra</span>
+              <span className="hidden sm:inline">Geospatial Intelligence for Critical Infrastructure</span>
             </span>
           </span>
         </motion.div>
@@ -463,7 +464,7 @@ export default function Hero() {
             transition={{ duration: 0.9, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
             className="text-5xl sm:text-6xl lg:text-[5.5rem] font-bold tracking-[-0.03em] leading-[0.95]"
           >
-            <span className="text-slate-900">Pipeline Integrity</span>
+            <span className="text-[#183d6e]">Pipeline Integrity</span>
           </motion.h1>
         </div>
         <div className="overflow-hidden mb-2">
@@ -473,7 +474,7 @@ export default function Hero() {
             transition={{ duration: 0.9, delay: 0.65, ease: [0.16, 1, 0.3, 1] }}
             className="text-5xl sm:text-6xl lg:text-[5.5rem] font-bold tracking-[-0.03em] leading-[0.95]"
           >
-            <span className="text-slate-900">Through </span>
+            <span className="text-[#183d6e]">Through </span>
             <span className="text-gradient-orange">Persistent</span>
           </motion.h1>
         </div>
@@ -514,7 +515,7 @@ export default function Hero() {
             href="#contact"
             className="group relative inline-flex items-center gap-3 px-8 py-4 bg-accent-orange text-white font-semibold text-sm tracking-wide rounded-lg overflow-hidden transition-all duration-300 hover:shadow-[0_0_40px_rgba(26,154,0,0.35)] hover:scale-[1.02]"
           >
-            <span className="relative z-10">Schedule Technical Consultation</span>
+            <span className="relative z-10">Schedule Consultation</span>
             <svg className="relative z-10 w-4 h-4 group-hover:translate-x-1 transition-transform" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
               <path d="M5 12h14M12 5l7 7-7 7" />
             </svg>
