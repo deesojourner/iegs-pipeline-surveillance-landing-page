@@ -24,8 +24,8 @@ jobs:
       - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
+          server: 66.29.132.97
+          username: admin@indepthearth.com
+          password: Zaddy@2026
           local-dir: ./out/
           server-dir: /new.indepthearth.com/pipeline_surveillance
